@@ -1,11 +1,9 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace CapstoneBackend.Models;
+namespace CapstoneBackend.DTOs;
 
-public class Product
+public class ProductDTO
 {
-    [Key]
-    public int Id { get; set; }
     [Required]
     public string? Name { get; set; }
     public string? Description { get; set; }
