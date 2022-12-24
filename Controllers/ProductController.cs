@@ -6,5 +6,5 @@ namespace CapstoneBackend.Controllers;
 [ApiController]
 public class ProductController : Controller
 {
-
+    private readonly ProductContext _dbContext;
 }
